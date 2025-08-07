@@ -4,9 +4,14 @@
   "license": "MIT",
   "scripts": {},
   "private": true,
-  "dependencies": {},
   "devDependencies": {
-    "@nx/js": "21.3.11",
+    "@nx/angular": "^21.3.11",
+    "@nx/eslint-plugin": "^21.3.11",
+    "@nx/jest": "^21.3.11",
+    "@nx/js": "^21.3.11",
+    "@nx/linter": "^19.8.4",
+    "@nx/nest": "^21.3.11",
+    "@nx/storybook": "^21.3.11",
     "@nx/workspace": "21.3.11",
     "nx": "21.3.11"
   }

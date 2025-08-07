@@ -16,16 +16,17 @@ Welcome to **Didache**, a next-generation learning platform for **Koine Greek** 
 - Organized with apps, libs, and typed API contracts
 - Plugins installed: `@nx/angular`, `@nx/nest`, `@nx/storybook`, `@nx/jest`
 
+```text
 apps/
-greek-learning-app/ → Angular 17, mobile-first
-api/ → NestJS backend with REST + GraphQL ready
+greek-learning-app/     → Angular 21, mobile-first
+api/                    → NestJS backend with REST + GraphQL ready
 
 libs/
-greek-alphabet/ → Displays 24 Koine Greek letters
-diagnostic-ui/ → Onboarding flow to assess user knowledge
-tts/ → OpenAI TTS proxy & playback
-core/ → Shared types, models, state utilities
-
+greek-alphabet/         → Displays 24 Koine Greek letters
+diagnostic-ui/          → Onboarding flow to assess user knowledge
+tts/                    → OpenAI TTS proxy & playback
+core/                   → Shared types, models, state utilities
+```
 
 ---
 
@@ -67,7 +68,7 @@ core/ → Shared types, models, state utilities
 
 ### 🧩 PAANG Stack Foundations
 
-- ✅ **Angular** 17 frontend (Standalone Components + SCSS)
+- ✅ **Angular** 21 frontend (Standalone Components + SCSS)
 - ✅ **NestJS** backend
 - ✅ **Nx** workspace for scale
 - ✅ **GraphQL** scaffolded and running side-by-side with REST
@@ -86,3 +87,4 @@ model Progress {
   lessonId String
   score    Int
 }
+```

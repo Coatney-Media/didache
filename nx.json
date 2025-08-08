@@ -20,6 +20,10 @@
       "dependsOn": ["^build"],
       "inputs": ["production", "^production"]
     },
+    "workspaceLayout": {
+      "appsDir": "apps",
+      "libsDir": "libs"
+    },
     "@nx/eslint:lint": {
       "cache": true,
       "inputs": [
